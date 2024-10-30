@@ -1,6 +1,4 @@
-Certainly! Below are two `README.md` files for both versions of the program: **without the bot** and **with the bot**.
 
----
 
 ### **README for the "21 Sticks" Game (Without Bot)**
 
@@ -120,6 +118,3 @@ Bot won!
 
 Enjoy the challenge against the unbeatable bot!
 
----
-
-In both `README.md` files, make sure to replace the URL in the `git clone` command with the actual URL of your repository. These readme files outline the rules, provide a brief example, and include setup instructions for users.
