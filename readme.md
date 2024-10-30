@@ -113,7 +113,7 @@ Bot won!
    ```
 3. Run the game:
    ```bash
-   python3 21_sticks.py
+   python3 21_sticks_bot_move.py
    ```
 
 Enjoy the challenge against the unbeatable bot!
@@ -160,7 +160,7 @@ def bot_move(sticks_left):
         print(f"Bot takes (random): {random_move}")
         return random_move
 
-def game():
+def play_game():
     sticks = 21
     current_player = 1  # Bot goes first
 
@@ -190,7 +190,7 @@ def game():
         current_player = 2 if current_player == 1 else 1
 
 if __name__ == "__main__":
-    game()
+    play_game()
 ```
 
 ### Explanation of Changes:
@@ -285,7 +285,7 @@ Player 2 won!
    ```
 3. Run the game:
    ```bash
-   python3 21_sticks.py
+   python3 21_sticks_bot_twist.py
    ```
 
 ---
