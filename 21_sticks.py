@@ -26,7 +26,7 @@ def play_game():
         print(f"{total_sticks} sticks in the pile.")
 
         # Switch to the next player
-        current_player = 2 if current_player == 1 else 1
+        current_player = current_player % 2 + 1
 
 
 if __name__ == "__main__":
